@@ -253,7 +253,7 @@ def demo_gcm_mode():
         print(f"[✗] Authentication failed: {e}")
         return
     
-    # Security Notes
+    # Security Notes!
     print("\n[!] Security Notes:")
     print("    - GCM provides BOTH confidentiality and authentication")
     print("    - Nonce is randomly generated (never reuse with same key!)")
